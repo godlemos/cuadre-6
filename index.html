@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>CUADRE EFECTIVO</title>
+</head>
+<body>
+  <div class="container">
+    <h1 align="center">JULIA CABEZAS</h1>
+    <div class="input-group">
+      <label for="billetes20">Billetes de $20:</label>
+      <input type="number" id="billetes20" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="billetes10">Billetes de $10:</label>
+      <input type="number" id="billetes10" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="billetes5">Billetes de $5:</label>
+      <input type="number" id="billetes5" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas1">Monedas y Billetes de $1:</label>
+      <input type="number" id="monedas1" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas50c">Monedas de $0.50:</label>
+      <input type="number" id="monedas50c" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas25c">Monedas de $0.25:</label>
+      <input type="number" id="monedas25c" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas10c">Monedas de $0.10:</label>
+      <input type="number" id="monedas10c" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas5c">Monedas de $0.05:</label>
+      <input type="number" id="monedas5c" placeholder="0">
+    </div>
+    <div id="formulario">
+      <div class="input-group">
+        <label for="monedas1c">Monedas de $0.01:</label>
+        <input type="number" id="monedas1c" placeholder="0">
+      </div>
+      <button onclick="calcularArqueo1()">Calcular Arqueo 1</button>
+      <h2>Total: $<span id="total1"></span></h2>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1 align="center"> ARIANA MESTANZA</h1>
+    <div class="input-group">
+      <label for="billetes20_2">Billetes de $20:</label>
+      <input type="number" id="billetes20_2" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="billetes10_2">Billetes de $10:</label>
+      <input type="number" id="billetes10_2" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="billetes5_2">Billetes de $5:</label>
+      <input type="number" id="billetes5_2" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas1_2">Monedas y Billetes de $1:</label>
+      <input type="number" id="monedas1_2" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas50c_2">Monedas de $0.50:</label>
+      <input type="number" id="monedas50c_2" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas25c_2">Monedas de $0.25:</label>
+      <input type="number" id="monedas25c_2" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas10c_2">Monedas de $0.10:</label>
+      <input type="number" id="monedas10c_2" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas5c_2">Monedas de $0.05:</label>
+      <input type="number" id="monedas5c_2" placeholder="0">
+    </div>
+    <div id="formulario_2">
+      <div class="input-group">
+        <label for="monedas1c_2">Monedas de $0.01:</label>
+        <input type="number" id="monedas1c_2" placeholder="0">
+      </div>
+      <button onclick="calcularArqueo2()">Calcular Arqueo 2</button>
+      <h2>Total: $<span id="total2"></span></h2>
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+  <script src="script2.js"></script>
+</body>
+</html>
+
+<div class="container">
+    <h1 align="center"> MARILYN LANDAZURI</h1>
+    <div class="input-group">
+      <label for="billetes20_3">Billetes de $20:</label>
+      <input type="number" id="billetes20_3" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="billetes10_3">Billetes de $10:</label>
+      <input type="number" id="billetes10_3" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="billetes5_3">Billetes de $5:</label>
+      <input type="number" id="billetes5_3" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas1_3">Monedas y Billetes de $1:</label>
+      <input type="number" id="monedas1_3" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas50c_3">Monedas de $0.50:</label>
+      <input type="number" id="monedas50c_3" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas25c_3">Monedas de $0.25:</label>
+      <input type="number" id="monedas25c_3" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas10c_3">Monedas de $0.10:</label>
+      <input type="number" id="monedas10c_3" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas5c_3">Monedas de $0.05:</label>
+      <input type="number" id="monedas5c_3" placeholder="0">
+    </div>
+    <div id="formulario_3">
+      <div class="input-group">
+        <label for="monedas1c_3">Monedas de $0.01:</label>
+        <input type="number" id="monedas1c_3" placeholder="0">
+      </div>
+      <button onclick="calcularArqueo3()">Calcular Arqueo 3</button>
+      <h2>Total: $<span id="total3"></span></h2>
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+  <script src="script2.js"></script>
+</body>
+</html>
+
+<div class="container">
+    <h1 align="center"> CARLOS LEMOS</h1>
+    <div class="input-group">
+      <label for="billetes20_4">Billetes de $20:</label>
+      <input type="number" id="billetes20_4" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="billetes10_4">Billetes de $10:</label>
+      <input type="number" id="billetes10_4" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="billetes5_4">Billetes de $5:</label>
+      <input type="number" id="billetes5_4" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas1_4">Monedas y Billetes de $1:</label>
+      <input type="number" id="monedas1_4" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas50c_4">Monedas de $0.50:</label>
+      <input type="number" id="monedas50c_4" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas25c_4">Monedas de $0.25:</label>
+      <input type="number" id="monedas25c_4" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas10c_4">Monedas de $0.10:</label>
+      <input type="number" id="monedas10c_4" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="monedas5c_4">Monedas de $0.05:</label>
+      <input type="number" id="monedas5c_4" placeholder="0">
+    </div>
+    <div id="formulario_4">
+      <div class="input-group">
+        <label for="monedas1c_4">Monedas de $0.01:</label>
+        <input type="number" id="monedas1c_4" placeholder="0">
+      </div>
+      <button onclick="calcularArqueo4()">Calcular Arqueo 4</button>
+      <h2>Total: $<span id="total4"></span></h2>
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+  <script src="script2.js"></script>
+</body>
+</html>
+
+
+
